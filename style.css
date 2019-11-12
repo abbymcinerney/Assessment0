@@ -59,6 +59,7 @@ li:last-child {
 
 li a {
     text-decoration: none;
+    text-align: center;
     color: rgb(15, 15, 15);
     font: 25px/1 Helvetica, Verdana, sans-serif;
     text-transform: uppercase;
