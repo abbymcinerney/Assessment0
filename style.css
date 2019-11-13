@@ -22,14 +22,17 @@ img {
     border-radius: 100%; 
     filter: drop-shadow(0);; /* The drop shadow filter i found on this website https://developer.mozilla.org/en-US/docs/Web/CSS/filter*/
 }
-img:hover{
+img:hover {
     filter: drop-shadow(16px 16px 20px pink);; 
     border-style: none;
     border-radius: 100%;
     transition: background-size 0.3s ease;
     filter: drop-shadow(16px 16px 20px pink);;
     transition: background-size 0.3s ease; 
+
 }
+
+
 
  body {
      text-align: center;
