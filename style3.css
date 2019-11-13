@@ -1,10 +1,13 @@
 ul a{
     text-decoration: none;
     text-align: center;
-    color: rgb(15, 15, 15);
+    color: rgb(0, 0, 0);
     font: 25px/1 Helvetica, Verdana, sans-serif;
     text-transform: uppercase;
     transition: all 0.5 ease;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 body{
