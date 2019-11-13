@@ -33,6 +33,8 @@ img:hover{
 
  body {
      text-align: center;
+     background-color: rgb(252, 232, 236);
+
  }
 
  .profile{
@@ -82,8 +84,9 @@ li a:hover {
 
 .github{
     text-align: right;
+    float: right;
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-direction: row-reverse;
+    justify-content: center;
 
 }
