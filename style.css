@@ -10,12 +10,19 @@ h1 {
    width: 250px;
 }
 
+nav{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 img {
     border-style: none;
     border-radius: 100%; 
     filter: drop-shadow(0);; /* The drop shadow filter i found on this website https://developer.mozilla.org/en-US/docs/Web/CSS/filter*/
 }
-.container:hover{
+img:hover{
     filter: drop-shadow(16px 16px 20px pink);; 
     border-style: none;
     border-radius: 100%;
@@ -30,7 +37,9 @@ img {
 
  .profile{
      max-width: 40vw;
+     max-height: 40vw;
  }
+
  *{
     margin: 0;
     padding: 0;
