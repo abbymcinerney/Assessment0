@@ -79,3 +79,11 @@ li a {
 li a:hover {
     color: rgb(238, 23, 130);
 }
+
+.github{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
