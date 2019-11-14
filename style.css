@@ -18,6 +18,7 @@ nav{
 }
 
 img {
+    height: 350px;
     border-style: none;
     border-radius: 100%; 
     filter: drop-shadow(0);; /* The drop shadow filter i found on this website https://developer.mozilla.org/en-US/docs/Web/CSS/filter*/
