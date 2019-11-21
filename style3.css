@@ -1,4 +1,4 @@
-ul a{
+ul a{ /* this styles the font in the element ul a*/
     text-decoration: none;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -10,7 +10,7 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-body{
+body{ /* this centres the items in the body and sets the background colour*/
     text-align: center;
     background-color: rgb(252, 232, 236);
 }
@@ -21,7 +21,7 @@ body{
     padding: 0;
 }
 
-nav {
+nav { /*this styles the navigation bar*/
     margin:50px;
     text-align: center;
     display: flex;
@@ -34,7 +34,7 @@ ul {
     list-style-type: none
 }
 
-li {
+li { /*this styles the lines that seperate the navaigation bar*/
     height:25px;
     float:left;
     margin-right: 0px;
@@ -47,7 +47,7 @@ li:last-child {
     border-right:none;
 }
 
-li a {
+li a {/*this styles the tex in the navigation bar*/
     text-decoration: none;
     text-align: center;
     color: rgb(15, 15, 15);
@@ -56,6 +56,6 @@ li a {
     transition: all 0.5 ease;
 }
 
-li a:hover {
+li a:hover { /*this styles the hover function*/
     color: rgb(238, 23, 130);
 }

@@ -6,7 +6,7 @@
 
 h1 { 
     font-size: 3.5rem;
-    /*font-weight: 400;*/
+    font-weight: 400;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     color: black;
@@ -47,7 +47,7 @@ hr {
     position: relative;
 }
 
-.gallery {
+.gallery {/*this puts the images into a grid*/
     display: grid;
     grid-template-columns: repeat(auto-fit, 
     minmax(300px, 1fr));
@@ -94,7 +94,7 @@ hr {
 }
 
 @media (max-width: 500px) { 
-    .gallery-item, 
+    .gallery-item, /*this is code that styles the grid*/
     body {
         max-width: 30%;
         grid-column: 2;
@@ -120,12 +120,12 @@ nav {
     margin:50px;
 }
 
-ul {
+ul {/*this styles the navigation bar*/
     overflow:auto;
     list-style-type: none
 }
 
-li {
+li {/*this styles the lines that seperate the navaigation bar*/
     height:25px;
     float:left;
     margin-right: 0px;
@@ -138,7 +138,7 @@ li:last-child {
     border-right:none;
 }
 
-li a {
+li a {/*this styles the tex in the navigation bar*/
     text-decoration: none;
     text-align: center;
     color: rgb(15, 15, 15);
@@ -147,6 +147,6 @@ li a {
     transition: all 0.5 ease;
 }
 
-li a:hover {
+li a:hover {/*this styles the hover function*/
     color: rgb(238, 23, 130);
 }
