@@ -3,12 +3,7 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.item {
-   text-align: 500px;
-   border-radius: 100%;
-   height: 250px;
-   width: 250px;
-}
+
 
 nav{
     text-align: center;
@@ -17,13 +12,13 @@ nav{
     justify-content: center;
 }
 
-img {
+.profile {
     height: 350px;
     border-style: none;
     border-radius: 100%; 
     filter: drop-shadow(0);; /* The drop shadow filter i found on this website https://developer.mozilla.org/en-US/docs/Web/CSS/filter*/
 }
-img:hover {
+.profile:hover {
     filter: drop-shadow(16px 16px 20px pink);; 
     border-style: none;
     border-radius: 100%;
@@ -86,11 +81,3 @@ li a:hover {
     color: rgb(238, 23, 130);
 }
 
-.github{
-    text-align: right;
-    float: right;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-
-}
