@@ -1,47 +1,5 @@
 
- *{
-    margin: 0;
-    padding: 0;
-}
 
-nav {
-    margin:50px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-ul {
-    overflow:auto;
-    list-style-type: none
-}
-
-li {
-    height:25px;
-    float:left;
-    margin-right: 0px;
-    border-right: 5px solid
-    pink;
-    padding: 0 20px;
-}
-
-li:last-child {
-    border-right:none;
-}
-
-li a {
-    text-decoration: none;
-    text-align: center;
-    color: rgb(15, 15, 15);
-    font: 25px/1 Helvetica, Verdana, sans-serif;
-    text-transform: uppercase;
-    transition: all 0.5 ease;
-}
-
-li a:hover {
-    color: rgb(238, 23, 130);
-}
 
 
 :root {
@@ -49,30 +7,6 @@ li a:hover {
     font-family: Montserrat, sans-serif;
 }
 
-.portfolio { 
-    font-size: 3.5rem;
-    font-weight: 400;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    color: black;
-}
-
-
-
-
-
-body {
-    text-align: center;
-    background-color: rgb(252, 232, 236);
-
-}
-
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid pink;
-}
 
 .container {
     width: 96rem;
@@ -93,7 +27,7 @@ hr {
     grid-template-columns: repeat(auto-fit, 
     minmax(300px, 1fr));
     grid-gap: 1.5rem;
-    grid-auto-rows: minmax(150px, auto);
+    
 }
 
 .image {
@@ -106,88 +40,5 @@ hr {
     object-fit: cover;
 }
 
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
-.gallery-item:hover .image { 
-    filter: grayscale(1);
-}
 
-.gallery-item:hover .middle {
-    opacity: 1;
-}
-
-.gallery-item:hover {
-    box-shadow: 0 10px 20px palevioletred;
-}
-.text {
-    color: white;
-    font-size: 2.5em;
-    padding: 16px 32px;
-    font-family: Oswald, sans-serif;
-}
-
-@media (max-width: 500px) { 
-    .gallery-item, /*this is code that styles the grid*/
-    body {
-        max-width: 30%;
-        grid-column: 2;
-        font-family: Oswald, sans-serif;
-        text-align: left;
-    }
-    div.portfolio, h1 {
-        text-align: left;
-        margin-left: 2em;
-    }
-
-    div.text {
-        font-size: 2.5em;
-    }
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-nav {
-    margin:50px;
-}
-
-ul {/*this styles the navigation bar*/
-    overflow:auto;
-    list-style-type: none
-}
-
-li {/*this styles the lines that seperate the navaigation bar*/
-    height:25px;
-    float:left;
-    margin-right: 0px;
-    border-right: 5px solid
-    pink;
-    padding: 0 20px;
-}
-
-li:last-child {
-    border-right:none;
-}
-
-li a {/*this styles the tex in the navigation bar*/
-    text-decoration: none;
-    text-align: center;
-    color: rgb(15, 15, 15);
-    font: 25px/1 Helvetica, Verdana, sans-serif;
-    text-transform: uppercase;
-    transition: all 0.5 ease;
-}
-
-li a:hover {/*this styles the hover function*/
-    color: rgb(238, 23, 130);
-}
